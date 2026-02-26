@@ -4,10 +4,10 @@
   "description": "An awesome company portfolio website",
   "main": "index.js",
   "scripts": {
-  "start": "node index.js",
-  "build": "echo \"Building project...\"",
-  "test": "echo \"Error: no test specified\" && exit 1"
- },
+    "start": "node index.js",
+    "build": "mkdir -p dist && cp -r 01.Company-Portfolio/* dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
